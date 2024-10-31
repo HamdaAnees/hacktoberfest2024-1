@@ -1,0 +1,320 @@
+Best 15+ AWS Developer Associate 
+Hands-on labs in 2024
+
+
+Are you preparing for an AWS Certified Developer Associate certification exam? Or a cloud developer where you need to upgrade in the AWS
+ environment but don’t know where to start?  Here comes the best practical solution for you!
+
+ The AWSDeveloper Associate hands-on labs are the best practical guide to give a jump-start to your DVA-C02 exam preparation. These labs provide detailed and
+ interactive AWS infrastructure demonstrations, where you can learn, apply your  skills, and experiment.
+
+
+ This blog highlights 15+ AWS Developer Associate hands-on labs to help you  become AWS Developer Associate certified. But before we go into the nitty-gritty
+ of DVA-C02 hands-on labs, let’s sneak peek into the AWS Developer Associate exam.
+
+
+Time to dive in!
+ What is AWS Certified Developer Associate certification anyway?
+ The AWSCertified Developer Associate certificate helps you sharpen your skills
+ in creating, refining, packaging, and deploying applications, utilizing CI/CD
+ workflows, and detecting and solving application problems in the AWS
+ environment.
+
+
+ Besides, you will learn AWS developer core responsibilities and collaborate with
+ cross-team members to create AWS applications and integrate DevOps tools.
+ This DVA-C02 exam will test skills in:
+ ● Optimize and develop applications on AWS.
+ ● Deploying by continuous integration and continuous deliver
+
+
+1.Creating a User Pool in AWS Cognito Using Terraform
+ In this lab, you will walk through the steps to create a user pool in AWS Cognito
+ through all the detailed settings. The tasks in this lab include:
+ ● Signing into the AWS Management Console
+ ● Setting up Visual Studio Code
+ ● Creating a variables file
+ ● Creation of a main.tf file
+ ● ToCreate an output file
+ ● Confirming the installation of Terraform by verifying the version
+ ● Applying Terraform configurations
+ ● Checking the resources in the AWS Console
+ ● Validation of the Lab
+ ● Todelete AWS Resources
+
+
+ 2. Live Tail feature for Amazon CloudWatch Logs
+This lab will walk you through the steps to creating the S3 Bucket using the Live
+ Tail feature in CloudWatch logs in real-time.
+ Under these hands-on labs, you can explore lab topics such as:
+ 1. Signing into the AWS Management Console
+ 2. Creating Lambda Function
+ 3. Checking CloudWatch Logs
+ 4. Checking S3 Bucket
+ 5. Validation of the Lab
+
+
+ 3. How do you create a static website using Amazon S3
+ Well, this lab provides guided details on how you use an AWS S3 to host a static
+ HTML website and make it easily accessible to the public.
+ The following tasks were included in this practical hands-on lab:
+ 1. Signing into the AWS management console
+ 2. Creation of a S3 bucket
+ 3. Enabling static website hosting settings
+
+
+4. Testing the website
+ 5. Testing the website’s error page
+ 6. Validation of the Lab
+ 4. Create & Subscribe to SNS Topics, Adding SNS
+ events for the S3 bucket
+ In this lab, you will be able to create and subscribe to an Amazon SNS Topic.
+ The tasks involved in this process include:
+ 1. Signing into the AWS management console.
+ 2. Creation of an SNS Topic
+ 3. Subscribe to an SNS Topic
+ 4. Create an S3 bucket
+ 5. Update an SNS Topic Access Policy
+ 6. Create an S3 Event
+ 7. Testing the SNS Notification
+ 8. Validation of the lab
+
+
+5. Encrypting an S3 bucket using AWS KMS and
+ monitoring activities with CloudTrail
+ This lab allows you to access the AWS KMS, AWS S3, and AWS CloudTrail. You
+ will create a custom encryption key using KMS and apply it to encrypt objects in
+ S3 Bucket and set up CloudTrail to watch S3 events.
+ In this practical guided lab, the following steps are performed:
+ 1. Signing into the AWS Management Console
+ 2. Creating a customer-managed KMS key
+ 3. Creation of an S3 bucket
+ 4. To create a CloudTrail and configure it to store events in S3
+ 5. Uploading an object and encrypting it
+ 6. Accessing the encrypted object
+ 7. Monitor KMS activity using CloudTrail Logs
+ 8. Deletion of AWS Resources
+
+
+ 6. Access Amazon SQS using Amazon VPC  Interface Endpoint
+ This lab will walk you through the steps to creating an interface endpoint for
+ Amazon SQS to access the EC2 Instance. The tasks in this lab include:
+ 7. Signing in to the AWS Management Console
+ 8. Creating an SQS Queue and Copy the Queue URL
+ 9. Creating a VPC and Enabling DNS Hostnames option
+ 10. Creating & attaching an Internet Gateway with custom VPC
+ 11.Creation of a Subnet
+ 12. Configuring the Subnet to enable auto-assign public IPv4
+ address
+ 13. Addanentry to the Internet (0.0.0.0/0) in the Main Route table.
+ 14. Creating a Security Group for EC2 Instance
+ 15. Launching an EC2 Instance
+16. SSHinto the Endpoint instance
+ 17. Creation of a VPC endpoint for SQS
+ 18. Sendthe message to the SQS queue
+ 19. Validation of the lab
+ 20. Deletion of AWS Resources
+
+
+ 7. Launching a Spot Instance with Amazon EC2
+ In this hands-on lab, you will learn the steps on how to launch an EC2 Spot
+ Instance using the AWS Management Console. This will help the learners to
+ differentiate between higher and lower spot instance prices, and guide you on
+ setting up the maximum price for spot instances.
+ The tasks in this hands-on lab are as follows:
+ 1. From an Amazon Linux AMI, selecting an Amazon Linux spot
+ instance
+ 2. Setting up the price of a spot instance to higher and lower values
+ compared to a given value.
+ 3. Launching the spot instance, to understand higher and lower prices.
+ 4. Exploring spot requests, saving summary, and pricing history
+ options
+ 5. Testing whether the HTML page is launched or not using public IP
+ 6. Validation of the lab
+ 7. Finally, deleting AWS Resources
+
+
+8. Generate S3 pre-signed URL using CloudShell
+ This lab gives you the steps to create an S3 pre-signed URL. Here you can
+ create an S3 bucket, uploading objects by using CloudShell where you will create
+ a short-lived URL, meaning a pre-sign URL.
+ Task Included:
+ 1. Signing in to the AWS Management Console
+ 2. Creating an S3 bucket
+ 3. Uploading a file to an S3 Bucket
+ 4. Changing to an environment in CloudShell
+ 5. Run the S3 pre-sign command & test the output
+ 6. Validating of the lab
+
+
+ 9. Using AWS S3 to Store ELB Access Logs
+ This lab will guide you on a series of procedures to establish an Elastic Load
+ Balancer (ELB) and save the ELB access logs in an S3 Bucket.
+ In this lab, you will create a pair of EC2 instances that are associated with an
+ elastic load balancer and then enable access logs on ELB (Elastic Load
+ Balancer). Also, you will set it up in order for logs coming from access to be
+ directed into the S3 Bucket.
+ Task Included:
+ ● Login to the AWS Management Console
+ ● Startup two web servers with Apache installed on them
+ ● Makeatarget group
+ ● Establish an application load balancer
+ ● Setupaccess log storage on the S3 bucket on the load balancer
+ ● Tryout the load balancer storing access logs
+ ● Labvalidation resource & removal from AWS
+
+
+10. Creating an Application Load Balancer from
+ AWSCLI
+ This lab narrows down the steps involved in creating an Application Load
+ Balancer via the AWS CLI to make learning better.
+ Tasks Included:
+ ● Sign in to the AWS Management Console.
+ ● Start an EC2 Instance
+ ● Start a second EC2 Instance
+ ● Start an Application Load Balancer in the AWS CLI
+ ● Deploy a Load Balancer
+ ● MaketwoTarget Groups
+ ● Addtargets to their respective Target groups
+ ● MakeListener Default Rules
+ ● Deploy listeners for other regulations
+ ● Checkthe health of the Target Group
+ ● Verify load balancer rules by accessing the DNS
+
+
+ 11. Adding a Database to Elastic Beanstalk
+ Environment
+ This lab guides users through the process of deploying and managing a simple
+ Java application in the AWS Cloud using Elastic Beanstalk. It also covers adding
+ a new database to the Beanstalk environment and testing the RDS database
+ connection.
+ The purpose of this lab is to show users how they can get started on the AWS
+ Cloud by deploying and managing an easy Java platform using Elastic
+ Beanstalk; in addition, there are steps to follow if at some point one decides to
+ add another relational database instance within this environment (e.g, MySQL).
+ Task Included:
+● Gotothe AWSManagement Console
+ ● Let’s Create a New Elastic Beanstalk environment!
+ ● ToAddaDatabase to your Beanstalk environment
+ ● Test the RDS Database Connection
+ ● Checkout the lab results
+
+
+ 12. Create and configure the Code pipeline with
+ Elastic Beanstalk
+ This lab will guide you on how to deploy a Python application example you have
+ saved in an s3 bucket through CodePipeline.
+ Task Included:
+ ● Sign in to the AWS Management Console
+ ● Create an Elastic Beanstalk Environment
+ ● Turn on file versions for the S3 bucket and duplicate the objects’
+ keys
+ ● MakeaCodePipeline
+ ● Test changes made during application deployment
+ ● Validate the labs
+ ● Delete AWS Resources
+
+
+13. Configuring DynamoDB Streams Using Lambda
+ The following lab will guide you through launching an Amazon DynamoDB table,
+ setting up DynamoDB Streams, and creating a trigger for a Lambda function
+ which will output all items from the table in a text file and finally upload it in an S3
+ bucket.
+ Task Included:
+ 1. Login to AWS Management Console (AWS)
+ 2. Creating an Amazon DynamoDB table
+ 3. Insert items into the DynamoDB table
+ 4. Creation of a Lambda function
+ 5. Adding Triggers to the DynamoDB table
+ 6. Make changes to the contents of the DynamoDB table
+ 7. Streaming Cloudwatch logs
+ 8. Validation of the lab
+
+
+14. Install Python modules in AWS Lambda using Cloud9
+ In this AWS-guided lab walks you through the steps to install external libraries in
+ the Cloud9 environment to your Lambda function.
+ Task Included:
+ 1. Enter into the AWS management console
+ 2. Creating a new lambda function
+ 3. Creating an AWS Cloud9 development environment
+ 4. Importing the Lambda function to Cloud9
+ 5. Install the requests library and download it
+ 6. Uploading the deployment package and testing it
+ 7. Validating the lab environment
+ 8. Deleting the AWS resources
+
+
+ 15. Update the CloudFormation stack by creating  Changeset
+ This lab teaches you how to interpret an example CloudFormation template and
+ modify the CloudFormation stack accordingly. To achieve this purpose, beginners
+ must practice creating EC2 instances using Amazon Machine Images (AMI),
+ adjust their types during launch, substitute port 22 for port 80, and don’t forget
+to display their private IP address at the last stage of configuration. These
+ modifications should be recorded with a Change Set.”
+ Task Included:
+ 1. Access to AWS Management Console
+ 2. Copy sample template S3 Object URL Using a template from an S3
+ bucket
+3. Creation of a CloudFormation stack using a template present in an
+ S3 bucket
+ 4. Make a change set to this CloudFormation stack
+ 5. Check the updates and changes applied
+ 6. Validation of the lab
+ 7. Get rid of your AWS Resources by deleting it
+
+
+ 16. Creating a User Pool in AWS Cognito
+ This lab will guide you on how you can develop a User Pool in AWS Cognito with
+ every detail on the settings.
+ Task Included:
+ 1. Log into AWS Management Console.
+ 2. Creation of a User Pool
+ 3. Configuring sign-in experience
+ 4. Configuring security requirements
+ 5. Configuring the sign-up experience
+ 6. Delivering the configure message
+ 7. Integrating the app
+ 8. Review the tasks
+ 9. Validation of the lab
+
+
+17. Deploy sample containerized application on ECS using CodeDeploy
+ In this lab, we have a step-by-step guide to deploying sample containerized
+ applications on Amazon ECS using AWS CodeDeploy, in order to get some
+ hands-on experience. Once you follow these steps, it is easy here and you’ll be
+ able to go through the deployment process while familiarizing yourself with the
+ concept of deploying such applications on AWS.
+ Task Included:
+ 1. Sign in to the AWS Management Console
+ 2. For the load balancer, creating a security group
+ 3. Creation of the target group and application load balancer
+ 4. Creation of the second Target Group, required during deployment in
+ CodeDeploy
+ 5. Creation of an Environment in CloudShell
+ 6. Creation of an ECS Cluster, register task definition and create an
+ ECS service
+ 7. To create a new revision of the task definition and then add tags
+ 8. Updating the appspec.yml files and uploading it back to the S3
+ bucket
+ 9. Creation of a CodeDeploy application and deployment group
+ 10. Updating the ECS task definition by adding another tag
+ 11.Creating a listener for the new port.
+ 12. Creating a Lambda function for the AfterAllowTestTraffic event
+ 13. Updating the appspec.yml file
+ 14. Modifying the deployment group and adding a test listener port
+ 15. Checking your final output in the Cloudwatch log
+
+
+Conclusion
+ Hope this blog post helps you better understand the best hands-on labs for
+ AWSCertified Developer Associate certification. However, note that the few
+ best AWS Developer Associate exam preparation labs are only mentioned here.
+ There are more practical labs to explore further and use these demo AWS
+ environments best.
+ But speaking of overall preparation for the AWS Certified Developer Associate
+ certification, you would also need in-depth theory & practical knowledge. For this,
+ you will need updated and authentic resources like AWS Cloud Sandbox to
+ have real-time challenges. Whizlabs also provides full-length DVA-C02 practice
+ exams with 100+ exam questions, 24×7 assistance from domain experts, and
+ unlimited access to exclusive resources
